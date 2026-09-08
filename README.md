@@ -34,7 +34,7 @@ The system validates each user's name, email, and password against a set of rule
 
 ```
 ├── registration_system.py   # Main script: validation functions, registration logic, and tests
-└── README.md                 # Project documentation
+└── README.md
 ```
 
 ## Requirements
