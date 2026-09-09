@@ -47,20 +47,8 @@ The system validates each user's name, email, and password against a set of rule
 Run the script directly to see the registration system in action:
 
 ```bash
-python registration_system.py
+python user-registration-simulation-system.py
 ```
-
-The script includes a testing section at the bottom that runs through five scenarios:
-
-| # | Scenario           | Expected Result                          |
-|---|---------------------|-------------------------------------------|
-| 1 | Valid registration  | User added to `registered_users`          |
-| 2 | Duplicate email      | Logged to `failed_registrations`          |
-| 3 | Invalid name         | Logged to `failed_registrations`          |
-| 4 | Invalid email        | Logged to `failed_registrations`          |
-| 5 | Weak password         | Logged to `failed_registrations`          |
-
-After running, the script prints the final contents of both `registered_users` and `failed_registrations` so you can verify the system's behavior end to end.
 
 ## Validation Rules Summary
 
