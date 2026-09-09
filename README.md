@@ -62,21 +62,6 @@ The script includes a testing section at the bottom that runs through five scena
 
 After running, the script prints the final contents of both `registered_users` and `failed_registrations` so you can verify the system's behavior end to end.
 
-## Example Output
-
-```
-Registering user: john.doe@example.com -> Success
-Registering user: john.doe@example.com -> Failed: Email already registered.
-Registering user: jo -> Failed: Name must be at least 3 characters long.
-...
-
-Final registered_users:
-[{'name': 'John Doe', 'email': 'john.doe@example.com', 'password': 'Passw0rd!', 'status': 'active'}]
-
-Final failed_registrations:
-[{'email': 'john.doe@example.com', 'error': 'Email already registered.'}, ...]
-```
-
 ## Validation Rules Summary
 
 | Field    | Rule(s)                                                             |
